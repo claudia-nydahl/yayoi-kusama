@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="yayoi-kusama">
+	<meta name="keywords" content="Japanese, art, avant-garde">
+	<meta name="author" content="Claudia Nydahl">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale-1">
+	<title>Yayoi Kusama</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700|Zeyada" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<nav>
+		<a href="#" class="nav-button"></a>
+		<ul class="drop-menu hidden">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#works">Works</a></li>
+			<li><a href="#infinity-rooms">Infinity Rooms</a></li>
+			<a href="#"><img src="img/cross.png" class="cross-button"></a>
+		</ul>
+	</nav>
+	
+	<section id="fullpage">
+
+		<audio id="japanese-music">
+				<source src="audio/japanese-music.mp3" type="audio/mpeg" >
+				Your browser does not support the audio element. 
+		</audio>
+
+		<section class="section home-page" data-anchor="home">
+			<h1><mark class="thin">Yayoi</mark><mark class="bold">Kusama</mark></h1>
+			<h2>Japanese avant-garde artist</h2>
+			<a href="#" class="info-button"><img src="img/info-icon.png" class="info-icon info-icon-1"></a>
+			<div class="intro" style="display: none;">
+				<p>Kusama lives and works in Tokyo, Japan. Her home is a psychiatric hospital, where she has lived for 40 years with a lifelong condition of panic attacks and hallucinations. Her studio is opposite the hospital, where she consistently works to keep her anxieties and disorders at bay.</p>
+			</div>>
+			<a href="#" class="sound-button"><img src="img/sound-icon.png" class="sound-icon"></a>
+			<div class="scroll-command">
+				<div class="scroll-icon"></div>
+				<p>scroll</p>
+			</div>
+		</section>
+
+		<section class="section about" data-anchor="about">
+			<a href="#" class="sound-button"><img src="img/sound-icon.png" class="sound-icon"></a>
+			<div id="myPano" class="pano" style="background-position: 0px center; background-size: cover; background-repeat: repeat-x;">
+			<div class="controls">
+				<a href="#" class="left">«</a>
+				<a href="#" class="right">»</a>
+			</div>
+			</div>
+			<div class="panorama-heading">
+				<h1>Take me for a spin</h1>
+			</div>
+			<a href="#" class="info-button"><img src="img/info-icon.png" class="info-icon info-icon-2"></a>
+			<div class="about-info" style="display: none;">
+				<p>Kusama is known for her inexhaustible creations involving polka dots, pumpkins and vibrant colours.</p>
+			</div>
+		</section>
+
+		<section class="section slides" data-anchor="works">
+			<div class="col-3 slide">
+				<div class="early-life"></div>
+				<div class="header-banner">
+					<h1>Early Life</h1>
+				</div>
+				<p>Kusama’s love for pattern and repetition may stem from an unhappy childhood, where she already started to use painting as a method to ward off anxieties. She was born in 1929, to a conservative family who owned a seed farm and she was put to work planting crops. Here, her fascination for pumkins grew. Her family discouraged her painting and wanted her to follow the traditional Japanese way of living. She was completely against this idea and continued to paint day and night, until she was eventually forced to leave home.</p>
+			</div>
+			<div class="col-3 slide">
+				<div class="early-work"></div>
+				<div class="header-banner">
+					<h1>Early Work</h1>
+				</div>
+				<p>When Kusama left home in the 1950s, she pursued her dream of moving to New York, the centre of the art world, to become an artist.. She considered New York to be the land of the free. It gave her the freedom to create any kind of work that she wanted - such as surrealism, pop, installation and performance.</p>
+			</div>
+			<div class="col-3 slide">
+				<div class="net-paintings"></div>
+				<div class="header-banner">
+					<h1>Net Paintings</h1>
+				</div>
+				<p>Kusama is well known for her net paintings, which she describes as the net seperating her from the rest of the world. When painting, she first goes into a momentary trance. Then, with complete confidence and without planning, she begins her creations until she completely fills the canvas.</p>
+			</div>
+			<div class="col-3 slide">
+				<div class="infinity-rooms"></div>
+				<div class="header-banner">
+					<h1>Infinity Rooms</h1>
+				</div>
+				<p>Kusama is most famous for her infinity rooms, which she displays in exhibitions all around the world. These rooms are said to be a portrayal of her inner thoughts, her feelings, from what she sees and from her fears. She invites you into her world and allows the audience to take pictures and post them on the internet and via social media. By sharing and letting people share the exhibition, Kusama is spreading her word into infinity.</p>
+			</div>			
+		</section>
+
+		<section class="section infinity-room" data-anchor="infinity-rooms">
+			<a href="#" class="sound-button"><img src="img/sound-icon.png" class="sound-icon"></a>
+			<div id="myPano2" class="pano" style="background-position: 0px center; background-size: cover; background-repeat: repeat-x;">
+			<div class="controls">
+				<a href="#" class="left">«</a>
+				<a href="#" class="right">»</a>
+			</div>
+			</div>
+			<div class="panorama-heading">
+				<h1>Take me for a spin</h1>
+			</div>
+			<a href="#" class="info-button"><img src="img/info-icon.png" class="info-icon info-icon-2"></a>
+			<div class="expo-info" style="display: none;">
+				<p>Check out <a href="http://www.yayoi-kusama.jp" target="_blank">www.yayoi-kusama.jp</a> for information on Kusama's latest exhibitions.</p>
+			</div>
+		</section>
+	</section>
+	<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/jquery.pano.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
