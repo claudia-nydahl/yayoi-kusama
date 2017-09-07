@@ -31,7 +31,7 @@ $('.info-icon').click(function() {
 
 $(document).ready(function($){
 	$("#myPano").pano({
-		img: "./img/pumpkin-panorama-2.jpg"
+		img: "./img/pumpkin-panorama-low.jpg"
 	});
 });
 
@@ -77,6 +77,6 @@ $(".infinity-rooms").hover(function () {
 
 $(document).ready(function($){
 	$("#myPano2").pano({
-		img: "./img/infinity-room-panorama.png"
+		img: "./img/infinity-room-panorama-2.jpg"
 	});
 });
