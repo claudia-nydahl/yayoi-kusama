@@ -44,51 +44,35 @@ $('.cross-button').click(function() {
 });
 
 $(".early-life").hover(function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "45%");
     $('.slides p').css("margin-left", "46%");
-    }
 }, function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "35%");
     $('.slides p').css("margin-left", "36%");
-    }
 });
 
 $(".early-work").hover(function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "45%");
     $('.slides p').css("margin-left", "46%");
-    }
 }, function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "35%");
     $('.slides p').css("margin-left", "36%");
-    }
 });
 
 $(".net-paintings").hover(function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "45%");
     $('.slides p').css("margin-left", "46%");
-    }
 }, function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "35%");
     $('.slides p').css("margin-left", "36%");
-    }
 });
 
 $(".infinity-rooms").hover(function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "45%");
     $('.slides p').css("margin-left", "46%");
-    }
 }, function () {
-    if ($(window).width() >= 768){
     $(this).css("width", "35%");
     $('.slides p').css("margin-left", "36%");
-    }
 });
 
 $(document).ready(function($){
